@@ -9,6 +9,12 @@ functions:
       - http:
           path: hello
           method: get
+  echoBot:
+    handler: handler.echoBot
+    events:
+      - http:
+          path: echo
+          method: post
 plugins:
   - serverless-dotenv-plugin
   - serverless-plugin-typescript
