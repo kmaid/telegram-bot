@@ -24,7 +24,7 @@
     "@types/aws-lambda": "^8.10.53",
     "@types/node-fetch": "^2.5.7",
     "serverless-dotenv-plugin": "^2.4.2",
-    "serverless-offline": "^6.4.0",
+    "serverless-offline": "^12.0.3",
     "serverless-plugin-typescript": "^1.1.9",
     "serverless": "^1.72.0",
     "typescript": "^3.9.5"
